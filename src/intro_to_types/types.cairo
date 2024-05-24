@@ -1,7 +1,5 @@
 use core::traits::Into;
-pub mod calculations;
-pub mod intro_to_types;
-
+// pub mod calculations;
 fn main() {
     let x = say_name();
     println!("x value here: {x}");
@@ -15,8 +13,6 @@ fn main() {
     let is_even: bool = is_even(3);
     println!("is even result here: {}", is_even);
 
-    let cal_result = calculations::add::add_(1, 2);
-    println!("yeah___, {cal_result}");
 }
 
 
